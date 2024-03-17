@@ -50,7 +50,7 @@ public class ReadRetrieveReadChatServiceTest
 
         var history = new ChatTurn[]
         {
-            new ChatTurn("What is included in my Northwind Health Plus plan that is not in standard?", "user"),
+            new ChatTurn("What is Envoronment Sustainability", "user"),
         };
         var overrides = new RequestOverrides
         {
