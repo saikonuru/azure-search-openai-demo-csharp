@@ -95,7 +95,7 @@ app.Use(next => context =>
     context.Response.Cookies.Append("XSRF-TOKEN", tokens?.RequestToken ?? string.Empty, new CookieOptions() { HttpOnly = false });
     return next(context);
 });
-app.MapFallbackToFile("index.html");
+// app.MapFallbackToFile("index.html");
 
 app.MapApi();
 

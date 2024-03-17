@@ -1,8 +1,12 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Welcome to ESG Boat</PageTitle>
 
-<MudCard Elevation="24">
+<img src="https://purebluesustainability.com/wp-content/uploads/2022/02/Environmental-Sustainability-Examples-Tips-to-Implement-Them.jpg" alt="Environment img"  />
+
+
+
+@* <MudCard Elevation="24">
     <MudCardHeader>
         <CardHeaderAvatar>
             <MudAvatar Color="Color.Info" Size="Size.Large">
@@ -24,7 +28,7 @@
                      BulletsColor="Color.Primary" Style="height: 58vh;"
                      AutoCycle="true" TData="Image" Context="image"
                      ItemsSource=@_images AutoCycleTime=@TimeSpan.FromSeconds(3)>
-            <ItemTemplate>
+           <ItemTemplate>
                 <div class="d-flex flex-grow-1">
                     <MudImage Fluid="true" Src=@image.Src Elevation="5" ObjectPosition="ObjectPosition.Center"
                               Alt=@($"{image.Alt} (generated with Bing Create).") Class="rounded-lg mx-auto my-auto" />
@@ -63,4 +67,4 @@
                        aria-label="Markdig (GitHub repository) link."
                        Href="https://github.com/xoofx/markdig" Title="Markdig GitHub repo link." />
     </MudCardActions>
-</MudCard>
+</MudCard> *@
